@@ -1,0 +1,45 @@
+.header{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    margin-bottom: 1%;
+    background: #258ea6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.titletext{
+    color: white;
+    font-weight: bold;
+}
+
+.blogout{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 6px;
+    padding: 10px
+}
+
+.bcadastrar{
+    color: #258ea6;
+    background: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+}

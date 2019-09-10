@@ -1,0 +1,7 @@
+.cardname{
+    display: flex;
+}
+
+.cardname div{
+    flex: 1;
+}

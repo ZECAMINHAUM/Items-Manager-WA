@@ -1,0 +1,32 @@
+.content {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #258ea6;
+}
+
+.grid {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px #555;
+    background-color: #ffffff;
+}
+
+.title{
+    color: #258ea6;
+    padding: 10px
+}
+
+.button {
+    background: #00b595;
+    border-color: #00b595 !important;
+    color: #dba8a8; 
+    width: 100%;    
+
+}

@@ -39,7 +39,7 @@ class Login extends Component {
         const data = { nome: this.state.username, senha: this.state.password };
 
         axios
-            .post('http://lucaaix174.pythonanywhere.com/login', data)
+            .post('https://lucaaix174.pythonanywhere.com/login', data)
             .then(res => {
                 const { data } = res;
                 setToken(data.token);

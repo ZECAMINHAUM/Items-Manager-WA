@@ -22,7 +22,7 @@ class Home extends Component {
 
     getItems = async () => {
         await axios
-            .get('http://lucaaix174.pythonanywhere.com/items',
+            .get('https://lucaaix174.pythonanywhere.com/items',
                 {
                     headers: {
                         Authorization: `Bearer ${getToken()}`

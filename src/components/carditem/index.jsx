@@ -42,7 +42,7 @@ class CardItem extends Component {
         const data = { nome: name };
 
         await axios
-            .post(`http://lucaaix174.pythonanywhere.com/item/atualizar/${id}`, data,
+            .post(`https://lucaaix174.pythonanywhere.com/item/atualizar/${id}`, data,
                 {
                     headers: {
                         Authorization: `Bearer ${getToken()}`
@@ -62,7 +62,7 @@ class CardItem extends Component {
         e.preventDefault();
         const id = this.props.item.id;
         await axios
-            .get(`http://lucaaix174.pythonanywhere.com/item/deletar/${id}`,
+            .get(`https://lucaaix174.pythonanywhere.com/item/deletar/${id}`,
                 {
                     headers: {
                         Authorization: `Bearer ${getToken()}`

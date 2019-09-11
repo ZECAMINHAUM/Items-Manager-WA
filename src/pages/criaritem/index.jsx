@@ -24,7 +24,7 @@ class CriarItem extends Component {
         e.preventDefault();
         const data = { nome: this.state.data.name };
         await axios
-                .post('http://lucaaix174.pythonanywhere.com/item/adicionar',data,
+                .post('https://lucaaix174.pythonanywhere.com/item/adicionar',data,
                 { 
                         headers: {
                             Authorization : `Bearer ${getToken()}`

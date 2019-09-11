@@ -7,7 +7,7 @@ import './style.css';
 
 const logout = async () => {
         await axios
-            .get('http://lucaaix174.pythonanywhere.com/logout',
+            .get('https://lucaaix174.pythonanywhere.com/logout',
                 {
                     headers: {
                         Authorization: `Bearer ${getToken()}`

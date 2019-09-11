@@ -55,7 +55,7 @@ class Cadastro extends Component {
         e.preventDefault();
         const data = {nome: this.state.username, senha: this.state.password};
         axios
-            .post('http://lucaaix174.pythonanywhere.com/registro',  data)
+            .post('https://lucaaix174.pythonanywhere.com/registro',  data)
             .then(res => {
                 if(res.data.success){
                     this.props.history.push('/login');
